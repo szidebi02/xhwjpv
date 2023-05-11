@@ -1,4 +1,5 @@
-resource "local_file" "foo" {
-  content  = "foo!"
-  filename = "${path.module}/foo.bar"
+module "files" {
+  source  = "./modules"
+  content = "test"
+  name    = "name"
 }
