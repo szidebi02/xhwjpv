@@ -17,3 +17,11 @@ module "files" {
   answer_4 = var.answer_4
   answer_5 = var.answer_5
 }
+
+module "data"{
+  source = "./modules/data"
+  path_generated_file = module.read.read_output
+  depends_on = [
+    module.read
+  ]
+}

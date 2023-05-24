@@ -17,3 +17,7 @@ output "answer_4"{
 output "answer_5"{
     value = module.write.answer_5
 }
+
+output "file_id"{
+    value = module.data.file_id
+}
