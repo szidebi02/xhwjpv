@@ -20,7 +20,7 @@ module "files" {
 
 module "data"{
   source = "./modules/data"
-  path_generated_file = module.read.read_output
+  path = module.read.read_output
   depends_on = [
     module.read
   ]

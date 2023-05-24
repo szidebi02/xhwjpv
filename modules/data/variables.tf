@@ -1,3 +1,3 @@
-variable "path_generated_file"{
+variable "path"{
     type = string
 }

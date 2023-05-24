@@ -1,5 +1,5 @@
 output "read_output"{
-    value = module.read_output
+    value = module.read.read_output
 }
 
 output "answer_1"{
