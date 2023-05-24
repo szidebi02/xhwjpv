@@ -1,2 +1,4 @@
-# terraform-pipeline
-Testing builtin terraform pipeline
+# Terraform projekt
+
+Szilágyi Debóra
+XHWJPV
