@@ -20,8 +20,8 @@ module "files" {
 
 module "data"{
   source = "./modules/data"
-  path = module.read.read_output
+  path = module.files.filename
   depends_on = [
-    module.read
+    module.files
   ]
 }
